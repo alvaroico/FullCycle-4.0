@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+
+    {% block head %}
+    <title> Alvaro Pereira</title>
+    {% endblock %}
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Sobre</a>
+            <a href="/portfolio">Aulas</a>
+        </div>
+    </header>
+
+        {% block content %}
+
+        {% endblock %}
+
+</body>
+
+</html>

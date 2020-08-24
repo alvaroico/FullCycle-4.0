@@ -1,0 +1,15 @@
+/* 
+Criar o pacote Json
+npm init -y
+
+Criar servidor
+npm install express
+
+Automatiza servidor em modo desenvolvimento
+npm install -D nodemon
+
+Servidor para template
+npm install nunjucks
+
+
+*/
