@@ -17,8 +17,8 @@ nunjucks.configure("views", {
 server.get("/", function (req, res) {
   const about = {
     avatar_url: "https://avatars0.githubusercontent.com/u/59286021?v=4",
-    name: "Alvaro Ribeiro Pereira",
-    role: "Eu sou Full Cycle",
+    name: "Eu sou Full Cycle",
+    role: "Alvaro Ribeiro Pereira",
     description:
       "Durante toda a Maratona utilizaremos containers como base de desenvolvimento bem como para produção. Logo, ter uma noção básica de Docker é mais do que necessário. \
       Nesse desafio, você terá de criar uma imagem docker que quando executada deverá expor a porta 8080 exibindo a mensagem: Eu sou Full Cycle.\
